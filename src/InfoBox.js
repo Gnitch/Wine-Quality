@@ -8,9 +8,9 @@ function InfoBox({title,numCases,totalCases}) {
                 <Typography className='infobox__title' color = 'textSecondary'>
                     {title}
                 </Typography>
-                <h2 className='infoBox__cases'>{numCases}</h2>
+                <h2 className='infoBox__cases'>+{numCases}</h2>
                 <Typography className='infobox__total' color = 'textSecondary'>
-                    {total} Total
+                    {totalCases} Total
                 </Typography>                                
             </CardContent>
         </Card>
